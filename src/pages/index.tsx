@@ -50,14 +50,14 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               My name is Ben. I am a Mechanical Engineer pursuing a new career in Software Engineering.
-              Please check out my projects below and see if I could fill any positions you have. Thank you :)
+              Please check out my projects below and see if I could fill any positions you have. Thank you :&#41;
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://github.com/benjaminliang2" rel="noreferrer noopener" target="_blank"><AiFillGithub color="#171515" /></a>
               <a href="https://www.linkedin.com/in/benjaminwliang/" rel="noreferrer noopener" target="_blank"> <AiFillLinkedin color="#0072b1" /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} fill objectFit="cover" />
+              <Image src={deved} fill style={{objectFit:"cover"}} alt="Profile Picture" />
             </div>
           </div>
         </section>
@@ -70,24 +70,21 @@ export default function Home() {
             <div className="bg-teal-50 rounded-lg">
               <Image
                 className="rounded-lg object-cover"
-                width="100%"
-                height="100%"
                 src={roadtrip}
-                alt='test'
+                alt='RoadExplorer Screenshot'
               />
               <h3 className="text-teal-500 py-2"><a href="https://roadexplorer.herokuapp.com/" rel="noreferrer noopener" target="_blank">RoadExplorer</a></h3>
 
               <p className="text-base">RoadExplorer helps users plan a road trip by giving them directions, suggested points of interests,
                 and more. Users can sign up to save multiple trips and access them anywhere. This app is deployed on&nbsp;
                 <a className="text-decoration-line: underline text-[#0000EE]" href="https://roadexplorer.herokuapp.com/" rel="noreferrer noopener" target="_blank">Heroku</a>
-                .&nbsp;It may take a few seconds to load as I am using Heroku's Eco Plan for it. </p>
+                .&nbsp;It may take a few seconds to load as I am using Heroku&apos;s Eco Plan for it. </p>
             </div>
 
             <div className="bg-teal-50 rounded-lg">
               <Image
                 className="rounded-lg object-cover"
-                width="50%"
-                height="50%"
+
                 src={caloriepages}
                 alt='test'
 
