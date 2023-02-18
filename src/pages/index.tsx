@@ -84,11 +84,11 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10  lg:flex-wrap">
             <div className="bg-teal-50 rounded-lg">
-              {/* <Image
+              <Image
                 className="rounded-lg object-cover"
                 src={roadtrip}
                 alt='RoadExplorer Screenshot'
-              /> */}
+              />
               <h3 className="text-teal-500 py-2">
                 <a
                   href="https://roadexplorer.herokuapp.com/"
@@ -118,11 +118,11 @@ export default function Home() {
             </div>
 
             <div className="bg-teal-50 rounded-lg">
-              {/* <Image
+              <Image
                 className="rounded-lg object-cover"
                 src={caloriepages}
                 alt="test"
-              /> */}
+              />
               <h3 className="text-teal-500 py-2">Nutrition Tracker</h3>
 
               <p className="text-base">
