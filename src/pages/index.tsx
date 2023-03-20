@@ -57,7 +57,7 @@ export default function Home() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <AiFillGithub color="#171515" />
+                <AiFillGithub className="text-gray-800 dark:text-white" />
               </a>
               <a
                 href="https://www.linkedin.com/in/benjaminwliang/"
@@ -84,7 +84,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10  lg:flex-wrap">
-            <div className="bg-teal-50 rounded-lg">
+            <div className="bg-teal-50 dark:bg-gray-700 rounded-lg">
               <Image
                 className="rounded-lg object-cover"
                 src={roadtrip}
@@ -118,7 +118,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-teal-50 rounded-lg">
+            <div className="bg-teal-50 dark:bg-gray-700 rounded-lg">
               <Image
                 className="rounded-lg object-cover"
                 src={caloriepages}
